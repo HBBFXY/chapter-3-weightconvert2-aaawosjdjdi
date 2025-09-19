@@ -1,8 +1,6 @@
 weight = float(input())
-yearly_gain = 0.5
-moon_ratio = 0.165
-for year in range(0, 11):
-    earth_weight = weight + (year * yearly_gain)
-    moon_weight = earth_weight * moon_ratio
-    print(f"{year}\t{earth_weight:.2f}\t{moon_weight:.2f}")
+for year in range(11):
+    earth_weight = weight + year * 0.5
+    moon_weight = earth_weight * 0.165
+    print("%d\t%.2f\t%.2f"%(year, earth_weight, moon_weight))
 
