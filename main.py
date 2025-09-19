@@ -1,7 +1,4 @@
-try:
-    weight = float(input())
-except:
-    exit()
+weight = float(input())
 yearly_gain = 0.5
 moon_ratio = 0.165
 for year in range(0, 11):
