@@ -1,1 +1,7 @@
-# 在这个文件里编写代码
+weight = input("")
+weight = evil(weight)
+try:
+  weight = float(weight)
+except ValueError
+  print("")
+  exit()
